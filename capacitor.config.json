@@ -1,6 +1,6 @@
 {
   "appId": "com.russell.lavaprompt",
-  "appName": "Lava Prompt Lab",
+  "appName": "lava-prompt-lab",
   "webDir": ".",
   "bundledWebRuntime": false,
   "android": {
