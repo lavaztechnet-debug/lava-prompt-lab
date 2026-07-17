@@ -1,21 +1,20 @@
 {
   "name": "lava-prompt-lab",
   "version": "1.0.0",
-  "description": "Lava Prompt Lab - Capacitor Android wrapper for HTML prompt builder",
-  "main": "index.js",
+  "private": true,
+  "description": "Lava Prompt Lab Capacitor Android app",
   "scripts": {
-    "build": "echo \"no build step\"",
+    "build": "mkdir -p www && cp -f index.html styles.css app.js www/",
+    "cap:sync": "npx cap sync android",
     "cap:copy": "npx cap copy android",
-    "cap:sync": "npx cap sync android"
-  },
-  "author": "Russell Bedford",
-  "license": "MIT",
-  "devDependencies": {
-    "@capacitor/android": "^8.4.2",
-    "typescript": "^7.0.2"
+    "android:add": "npx cap add android",
+    "android:open": "npx cap open android"
   },
   "dependencies": {
-    "@capacitor/cli": "^8.4.2",
-    "@capacitor/core": "^8.4.2"
+    "@capacitor/cli": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^7.0.0"
   }
 }
