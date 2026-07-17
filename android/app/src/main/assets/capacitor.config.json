@@ -1,0 +1,13 @@
+{
+	"appId": "com.russell.lavaprompt",
+	"appName": "Lava Prompt Lab",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"android": {
+		"backgroundColor": "#050609",
+		"allowMixedContent": true
+	},
+	"server": {
+		"androidScheme": "https"
+	}
+}

@@ -1,7 +1,7 @@
 {
   "appId": "com.russell.lavaprompt",
-  "appName": "lava-prompt-lab",
-  "webDir": ".",
+  "appName": "Lava Prompt Lab",
+  "webDir": "www",
   "bundledWebRuntime": false,
   "android": {
     "backgroundColor": "#050609",
